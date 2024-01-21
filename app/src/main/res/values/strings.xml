@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Delta</string>
+    <string name="nav_1">Home</string>
+    <string name="nav_2">Saved</string>
+    <string name="nav_3">Cart</string>
+    <string name="nav_4">Settings</string>
+    <string name="search">Search</string>
+
+    <string name="saved_empty_title">You have no saved items yet</string>
+    <string name="saved_empty_text">Click the save icon for the items you like and they will show up here.</string>
+    <string name="saved_product1">Delta DVD player 7\n\n$85.00</string>
+    <string name="cart_empty_title">Your cart is empty</string>
+    <string name="cart_empty_text">Add some items to get started.</string>
+    <string name="cart_empty_button_text">Browse items</string>
+    <string name="member_regular">Regular Member</string>
+
+    <string name="member_name">Firstname Lastname</string>
+    <string name="member_status">Regular Member</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="settings_menu_item1">My orders</string>
+    <string name="settings_menu_item2">Payment information</string>
+    <string name="settings_menu_item3">Account details</string>
+    <string name="settings_menu_item4">Address</string>
+    <string name="settings_menu_item5">Membership</string>
+    <string name="settings_menu_item6">Notifications</string>
+    <string name="settings_menu_item7">Privacy</string>
+
+    <string name="cart_product1">Cotton shirt\n\n$25.00</string>
+    <string name="cart_product2">DVD player\n\n$50.00</string>
+    <string name="cart_delivery_amount">Calculated in the next step</string>
+    <string name="cart_subtotal">Subtotal</string>
+    <string name="cart_continue_button">Continue to checkout</string>
+
+    <string name="add_to_cart">Add to cart</string>
+    <string name="product_rating_4">&#9733;&#9733;&#9733;&#9733;&#9734;</string>
+    <string name="product_old_price">$100.00</string>
+    <string name="product_discount_amount">-$50.00</string>
+    <string name="product_samedayshipping_freereturns">Same-day shipping &#160; &#160; | &#160; &#160; Free returns</string>
+
+    <string name="checkout_success_title">Your order has been placed!</string>
+    <string name="checkout_success_text">Your payment was successful and your order will be
+    processed.\n\nA confirmation email has been sent to example@email.com.\n\nPlease allow 2-5
+        business days for processing.</string>
+
+    <string name="checkout_member_info">My information\n<small><font color='#808080'>John Doe\nexample@email.com\n+1 555-678-9000</font></small></string>
+
+    <string name="checkout_billing_info">Billing address\n<small><font color='#808080'>John Doe\n123 Street Name\nToronto, Ontario, Canada\nA1A 1A1</font></small></string>
+
+    <string name="checkout_shipping_info">Shipping\n<small><font color='#808080'>John Doe\nSame-day shipping\nFREE</font></small></string>
+
+    <string name="checkout_payment_info">Payment\n<small><font color='#808080'>Visa ending with 0000</font></small></string>
+
+    <string name="checkout_discount_label">Discounts</string>
+    <string name="checkout_apply_discount_label"><u>Apply discount</u></string>
+
+
+    <string name="checkout_order_value">Order value</string>
+    <string name="checkout_order_value_amount">$100.00</string>
+
+    <string name="checkout_discount">Discount</string>
+    <string name="checkout_discount_amount">-$10.00</string>
+
+    <string name="checkout_delivery_fee">Delivery fee</string>
+    <string name="checkout_delivery_amount">FREE</string>
+
+    <string name="checkout_taxes">Taxes</string>
+    <string name="checkout_taxes_amount">$11.70</string>
+
+    <string name="checkout_total">Total</string>
+    <string name="checkout_total_amount">$101.70</string>
+
+    <string name="checkout_button">Complete purchase</string>
+
+    <string name="checkout_terms_conditions">By continuing, you agree to our <b><u>Terms and Conditions</u></b>.</string>
+    <string name="checkout_privacy_notice">We will process your personal data in accordance with our <b><u>Privacy Notice</u></b>.</string>
+
+    <string name="checkout_shipping_handling">Shipping &amp; Handling</string>
+    <string name="checkout_return_policy">Return Policy</string>
+
+    <string name="fa_arrow_left">&#x2190;</string>
+    <string name="underlined_text"><strike>$100</strike></string>
+</resources>

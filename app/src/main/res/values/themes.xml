@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
+    </style>
+
+    <style name="BaseTopBar" parent="Widget.Material3.Toolbar">
+        <item name="titleCentered">true</item>
+    </style>
+
+    <style name="MainTopBar" parent="Widget.Material3.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">24px</item>
+        <item name="android:paddingEnd">24px</item>
+        <item name="android:paddingTop">12px</item>
+        <item name="android:paddingBottom">12px</item>
+        <item name="android:background">@color/md_theme_light_surface</item>
+    </style>
+
+    <style name="ButtonIcon" parent="Widget.Material3.Button.IconButton">
+        <item name="iconTint">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="EmptyFragmentTitle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EmptyFragmentText" parent="TextAppearance.Material3.BodyMedium">
+    </style>
+
+    <style name="SettingsUserCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="shapeAppearanceOverlay">@style/UserCardShape</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="contentPaddingTop">16dp</item>
+        <item name="contentPaddingBottom">16dp</item>
+        <item name="contentPaddingLeft">40dp</item>
+        <item name="contentPaddingRight">40dp</item>
+    </style>
+
+    <style name="UserCardShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="ChipFilter" parent="">
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:onClick">clickDisabledFunction"</item>
+    </style>
+
+    <style name="MenuTab">
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:textColor">@color/md_theme_light_onSurface</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.LabelLarge</item>
+        <item name="drawableEndCompat">@drawable/icon_chevron_right</item>
+        <item name="android:onClick">clickDisabledFunction"</item>
+    </style>
+
+    <style name="CheckoutTab">
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:gravity">left</item>
+        <item name="lineHeight">24dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/md_theme_light_onSurface</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyLarge</item>
+        <item name="drawableEndCompat">@drawable/icon_chevron_right</item>
+        <item name="android:onClick">clickDisabledFunction"</item>
+    </style>
+
+    <style name="NavBar" parent="Base.Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">bottom</item>
+        <item name="itemActiveIndicatorStyle">@style/ActiveNav</item>
+        <item name="itemTextAppearanceActiveBoldEnabled">false</item>
+        <item name="badgeStyle">@style/NavBadge</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="strokeColor">@color/md_theme_light_outline</item>
+        <item name="itemTextColor">@color/md_theme_light_onSurfaceVariant</item>
+    </style>
+
+    <style name="ActiveNav" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="itemTextColor">@color/md_theme_light_onSurface</item>
+    </style>
+
+    <style name="NavBadge" parent="Widget.Material3.Badge.AdjustToBounds">
+    </style>
+</resources>

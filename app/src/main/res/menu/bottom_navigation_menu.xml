@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:enabled="true"
+        android:icon="@drawable/icon_home"
+        android:title="@string/nav_1" />
+
+    <item android:id="@+id/nav_saved"
+        android:enabled="true"
+        android:icon="@drawable/icon_saved"
+        android:title="@string/nav_2"/>
+
+    <item android:id="@+id/nav_cart"
+        android:enabled="true"
+        android:icon="@drawable/icon_cart"
+        android:title="@string/nav_3"/>
+
+    <item android:id="@+id/nav_settings"
+        android:enabled="true"
+        android:icon="@drawable/icon_setting"
+        android:title="@string/nav_4"/>
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment android:name="com.example.delta.HomeFragment"
+        android:id="@+id/nav_home"
+        android:label="@string/nav_1"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment android:name="com.example.delta.SavedFragment"
+        android:id="@+id/nav_saved"
+        android:label="@string/nav_2"
+        tools:layout="@layout/fragment_saved" />
+
+    <fragment android:name="com.example.delta.CartFragment"
+        android:id="@+id/nav_cart"
+        android:label="@string/nav_3"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment android:name="com.example.delta.SettingsFragment"
+        android:id="@+id/nav_settings"
+        android:label="@string/nav_4"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
